@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const ChooseWrap = styled.div`
     margin-top: 96px;
-    margin-bottom: 50px;
+    margin-bottom: 97px;
     /* border: 3px solid red; */
     display: flex;
     align-items: center;
