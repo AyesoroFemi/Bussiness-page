@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Container } from "../../../components/navbar/Nav.styles"
+import { Container } from "./navbar/Nav.styles"
 
 
 export const ClientSession = () => {

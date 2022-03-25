@@ -90,7 +90,7 @@ export const ContainerLayout = styled.div`
    padding-bottom: 90px;
    /* border: 3px solid red; */
    display: flex;
-    gap: 4rem;
+   gap: 4rem;
     
 `
 

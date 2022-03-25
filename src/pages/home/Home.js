@@ -2,9 +2,9 @@ import { Footer } from "../../components/footer/Footer";
 import { Nav } from "../../components/navbar/Nav";
 import { AboutSession } from "./components/aboutSession/AboutSession";
 import { ChooseUs } from "./components/chooseUs/ChooseUs.js";
-import { ClientSession } from "./components/ClientSession";
-import { ConnectWithUs } from "./components/ConnectWithUs";
-import { GetStarted } from "./components/GetStarted";
+import { ClientSession } from "../../components/ClientSession";
+import { ConnectWithUs } from "../../components/ConnectWithUs";
+import { GetStarted } from "../../components/GetStarted";
 import { ServiceCard } from "./components/services/ServiceCard";
 import { ServiceText } from "./Home.styles";
 
