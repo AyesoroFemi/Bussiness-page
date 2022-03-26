@@ -15,9 +15,9 @@ export const Nav = () => {
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="services">Services</NavLink>
                         <NavLink to="products">Products</NavLink>
-                        <NavLink to="#">About</NavLink>
+                        <NavLink to="about">About</NavLink>
                         <NavLink to="blog">Blog</NavLink>
-                        <NavLink to="#">Careers</NavLink>
+                        <NavLink to="career">Careers</NavLink>
                         <NavLink to="#">Contact Us</NavLink>
                     </NavItem>
                     <Button>

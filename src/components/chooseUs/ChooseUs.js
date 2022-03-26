@@ -1,8 +1,8 @@
-import { Bulb } from "../../../../components/icons/Bulb"
-import { Gift } from "../../../../components/icons/Gift"
-import { Love } from "../../../../components/icons/Love"
-import { Quality } from "../../../../components/icons/Quality"
-import { Container } from "../../../../components/navbar/Nav.styles"
+import { Bulb } from "../icons/Bulb"
+import { Gift } from "../icons/Gift"
+import { Love } from "../icons/Love"
+import { Quality } from "../icons/Quality"
+import { Container } from "../navbar/Nav.styles"
 import { ChooseWrap, SideIcon, SideText } from "./ChooseUs.styles"
 
 export const ChooseUs = () => {

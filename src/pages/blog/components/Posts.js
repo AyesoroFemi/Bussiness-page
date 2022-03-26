@@ -118,10 +118,6 @@ export const PostWrapper = styled(Container)`
     grid-template-columns: 70% 30%;
     margin-bottom: 2rem;
     gap: 2rem;
-    
-    /* div:nth-of-type(1){
-       
-    } */
 
     h2 {
         margin-top: 96px;
