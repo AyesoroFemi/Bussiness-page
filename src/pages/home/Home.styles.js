@@ -3,8 +3,9 @@ import styled from "styled-components"
 export const ServiceText = styled.div`
 
     h3 {
+        margin-top: 95px;
         color: #0077B5;
-        font-szie: 20px;
+        font-size: 20px;
         text-align: center;
     }
     h1 {
@@ -24,4 +25,12 @@ export const ServiceText = styled.div`
         letter-spacing: 0.005em;
         line-height: 21px;
     }
+
+    @media screen and (max-width: 991px) {
+       
+    }
+    @media screen and (max-width: 579px) {
+        margin: 0 2.5rem;
+  }
+
 `

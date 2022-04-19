@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
 import { Container } from "./navbar/Nav.styles"
 
@@ -12,9 +13,9 @@ export const GetStarted = () => {
                 Want us to collaborate on a project?
            </h1>
             <Button>
-                <a href="#">
+                <Link to="#">
                     Get a Quote
-                </a>
+                </Link>
             </Button>
         </ContentWrapper>
     )

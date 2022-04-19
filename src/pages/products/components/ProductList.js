@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../../../components/GetStarted";
 import { Container } from "../../../components/navbar/Nav.styles";
@@ -14,7 +15,7 @@ export const ProductList = () => {
           store, pharmacy and other sales.
         </p>
         <Button>
-          <a href="#">Read more</a>
+          <Link to="#">Read more</Link>
         </Button>
       </div>
       <div>
@@ -26,7 +27,7 @@ export const ProductList = () => {
           Highly robust in functionality but very user friendly and efficient.
         </p>
         <Button>
-          <a href="#">Read more</a>
+          <Link to="#">Read more</Link>
         </Button>
       </div>
       <div style={{marginTop: "100px"}}>
@@ -39,7 +40,7 @@ export const ProductList = () => {
           Hotel very effectively.
         </p>
         <Button>
-          <a href="#">Read more</a>
+          <Link to="#">Read more</Link>
         </Button>
       </div>
       <div style={{marginTop: "100px"}}> 
@@ -53,7 +54,7 @@ export const ProductList = () => {
           schedules.
         </p>
         <Button>
-          <a href="#">Read more</a>
+          <Link to="#">Read more</Link>
         </Button>
       </div>
     </ProductContainer>

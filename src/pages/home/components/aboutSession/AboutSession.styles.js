@@ -9,12 +9,32 @@ export const SessionWrapper = styled.div`
 
 export const ImageCard = styled.div`
     margin: 107px 0;
+
+    @media screen and (max-width: 991px) {
+        margin-top: 1rem;
+        img {
+        height: 100%;
+        width: 100%;
+        }
+    }
+
+    
 `
 
 export const AboutCard = styled.div`
     display: flex;
     justify-content: space-between;
     gap: 9.1rem;
+
+    @media screen and (max-width: 991px) {
+       display: flex;
+       flex-direction: column;
+    }
+ 
+    /* @media screen and (max-width: 579px) {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    } */
     
 
     div:nth-of-type(1){

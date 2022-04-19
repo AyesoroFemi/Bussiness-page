@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
 import { Container } from "./navbar/Nav.styles"
 
@@ -9,21 +10,21 @@ export const ConnectWithUs = () => {
                 <SocialWrapper>
                     <h1>Connect with us</h1>
                     <div>
-                        <a href="#">
+                        <Link to="#">
                             <box-icon size="32px" name='facebook' type='logo' color='#ffffff' ></box-icon>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                             <box-icon size="32px" name='instagram' type='logo' color='#ffffff' ></box-icon>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                             <box-icon size="32px" name='twitter' type='logo' color='#ffffff' ></box-icon>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                             <box-icon size="32px" name='linkedin' type='logo' color='#ffffff' ></box-icon>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                             <box-icon size="32px" name='youtube' type='logo' color='#ffffff' ></box-icon>
-                        </a>
+                        </Link>
                     </div>
                 </SocialWrapper>
                 <OnlineWrapper>
@@ -53,6 +54,11 @@ export const ContainerExt = styled(Container)`
     display: flex;
     margin-top: 0.5rem;
 
+    @media screen and (max-width: 991px) {
+       display: flex;
+       flex-direction: column;
+    }
+ 
 `
 
 export const SocialWrapper = styled.div`
@@ -73,6 +79,15 @@ export const SocialWrapper = styled.div`
        display: flex;
        gap: 3.1rem;
    }
+
+   @media screen and (max-width: 991px) {
+       border: none;
+
+       div {
+           gap: 1.5rem;
+       }
+    }
+
 
 `
 export const OnlineWrapper = styled.div`
@@ -99,4 +114,14 @@ export const OnlineWrapper = styled.div`
        color: #fff;
        font-size: 20px;
    }
+
+   @media screen and (max-width: 991px) {
+        h1{
+            text-align: left;
+        }
+        p:nth-of-type(1), p:nth-of-type(2){
+            display: block;
+            text-align: left;
+        }
+    }
 `

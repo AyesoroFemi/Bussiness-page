@@ -7,11 +7,13 @@ import { ConnectWithUs } from "../../components/ConnectWithUs";
 import { GetStarted } from "../../components/GetStarted";
 import { ServiceCard } from "./components/services/ServiceCard";
 import { ServiceText } from "./Home.styles";
+import { SliderSession } from "./components/SliderSession";
 
 export const Home = () => {
   return (
     <>
       <Nav />
+      <SliderSession/>
       <ServiceText>
         <h3>Services</h3>
         <h1>What We Do</h1>

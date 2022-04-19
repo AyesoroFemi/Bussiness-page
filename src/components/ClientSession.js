@@ -40,4 +40,12 @@ export const ImageContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
+
+    @media screen and (max-width: 991px) {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 2rem;
+    }
+
+    
 `

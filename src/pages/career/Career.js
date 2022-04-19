@@ -15,7 +15,7 @@ export const Career = () => {
         </p>
       </LayoutWrapper>
       <ImgWrapper>
-        <img src="assets/Rectangle95.png" />
+        <img src="assets/Rectangle95.png" alt="career" />
       </ImgWrapper>
     </div>
   );

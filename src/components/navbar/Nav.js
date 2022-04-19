@@ -13,11 +13,11 @@ export const Nav = () => {
                 <Menu>
                     <NavItem>
                         <NavLink to="/">Home</NavLink>
-                        <NavLink to="services">Services</NavLink>
-                        <NavLink to="products">Products</NavLink>
-                        <NavLink to="about">About</NavLink>
-                        <NavLink to="blog">Blog</NavLink>
-                        <NavLink to="career">Careers</NavLink>
+                        <NavLink to="/services">Services</NavLink>
+                        <NavLink to="/products">Products</NavLink>
+                        <NavLink to="/about">About</NavLink>
+                        <NavLink to="/blog">Blog</NavLink>
+                        <NavLink to="/career">Careers</NavLink>
                         <NavLink to="#">Contact Us</NavLink>
                     </NavItem>
                     <Button>

@@ -7,6 +7,18 @@ export const ChooseWrap = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: 991px) {
+       display: flex;
+       flex-direction: column-reverse;
+       gap: 3rem;
+       
+       img {
+           height: 100%;
+           width: 100%;
+       }
+    }
+ 
     
     div h3 {
         text-align: right;
