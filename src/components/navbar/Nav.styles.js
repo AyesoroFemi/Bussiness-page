@@ -15,7 +15,7 @@ export const NavWrapper = styled.div`
   @media screen and (max-width: 991px) {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
   }
 `;
 export const NavItem = styled.div`

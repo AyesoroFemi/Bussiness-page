@@ -5,13 +5,13 @@ export const FooterContainer = styled.div`
 background-color: #4D4D4D;
 
 p{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     color: #fff;
     display: flex;
     align-items: center;
 }
 p span {
-    border: 4px solid teal;
+    /* border: 4px solid teal; */
     font-size: 14px;
 }
 h4 {
@@ -56,7 +56,7 @@ h6 {
 `
 export const SocialLink = styled.div`
 
-border: 3px solid red;
+/* border: 3px solid red; */
 display: flex;
 justify-content: space-between;
 align-items: center;
